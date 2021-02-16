@@ -25,7 +25,7 @@
 		D748E80A25DC07BC00038828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D748E80D25DC07BC00038828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D748E80F25DC07BC00038828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D748E81625DC07F300038828 /* TTSnailPageControl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TTSnailPageControl; path = ../TTSnailPageControl; sourceTree = "<group>"; };
+		D748E84C25DC60AF00038828 /* TTSnailPageControl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TTSnailPageControl; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		D748E7F525DC07BB00038828 = {
 			isa = PBXGroup;
 			children = (
-				D748E81625DC07F300038828 /* TTSnailPageControl */,
+				D748E84C25DC60AF00038828 /* TTSnailPageControl */,
 				D748E80025DC07BB00038828 /* TTSnailPageControlExample */,
 				D748E7FF25DC07BB00038828 /* Products */,
 				D748E84625DC2B9F00038828 /* Frameworks */,
