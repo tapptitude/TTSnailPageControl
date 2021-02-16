@@ -29,7 +29,7 @@ Add the contents of TTSnailPageControl/Sources/TTSnailPageControl folder to your
 
 ## Usage
 
-1. Create an `TTSnailPageControl` either from code using the interface builder. 
+1. Create a `TTSnailPageControl` instance either from code or using the interface builder. 
 
 2. Set the `scrollView` property
 
