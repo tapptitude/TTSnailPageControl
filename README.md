@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://swift.org/package-manager/)
 [![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/s4cha/Stevia/blob/master/LICENSE)
-[![GitHub tag](https://img.shields.io/github/release/freshos/TTSnailPageControl.svg)](https://github.com/tapptitude/TTParallaxOnboarding/releases)
+[![GitHub tag](https://img.shields.io/github/release/tapptitude/TTSnailPageControl.svg)](https://github.com/tapptitude/TTSnailPageControl/releases)
 [![Twitter](https://img.shields.io/badge/Twitter-@Tapptitude-blue.svg?style=flat)](http://twitter.com/Tapptitude)
 
 ## About
