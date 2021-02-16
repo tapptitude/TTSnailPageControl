@@ -39,18 +39,17 @@ pageControl.scrollView = scrollView
 3. Configure the control
 
 ```swift
-        pageControl.configuration.itemsCount = 4
-        pageControl.configuration.itemSize = CGSize(width: 20, height: 10)
-        pageControl.configuration.spacing = 10.0
-        pageControl.configuration.layerConfiguration { (layer, index) in
-            layer.backgroundColor = UIColor(named: "Unselected")?.cgColor
-            layer.cornerRadius = 5
-            
-        }
-        pageControl.configuration.selectionLayerConfiguration { (layer) in
-            layer.backgroundColor = UIColor(named: "Selected")?.cgColor
-            layer.cornerRadius = 5
-        }
+pageControl.configuration.itemsCount = 4
+pageControl.configuration.itemSize = CGSize(width: 20, height: 10)
+pageControl.configuration.spacing = 10.0
+pageControl.configuration.layerConfiguration { (layer, index) in
+        layer.backgroundColor = UIColor(named: "Unselected")?.cgColor
+        layer.cornerRadius = 5
+}
+pageControl.configuration.selectionLayerConfiguration { (layer) in
+        layer.backgroundColor = UIColor(named: "Selected")?.cgColor
+        layer.cornerRadius = 5
+}
 ```
 ## Contribution
 
