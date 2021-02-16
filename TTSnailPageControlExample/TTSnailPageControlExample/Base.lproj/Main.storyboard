@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TTSnailPageControlExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MBb-jB-2R8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jUA-Tp-ahP">
+                                        <rect key="frame" x="0.0" y="0.0" width="1656" height="896"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dz0-sf-c2M">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                                <color key="backgroundColor" red="0.10196078431372549" green="0.27843137254901962" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bee-hC-bfX">
+                                                <rect key="frame" x="414" y="0.0" width="414" height="896"/>
+                                                <color key="backgroundColor" red="0.074509803921568626" green="0.19607843137254902" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YfW-pr-tvj">
+                                                <rect key="frame" x="828" y="0.0" width="414" height="896"/>
+                                                <color key="backgroundColor" red="0.10196078431372549" green="0.27843137254901962" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZK-y1-2z3">
+                                                <rect key="frame" x="1242" y="0.0" width="414" height="896"/>
+                                                <color key="backgroundColor" red="0.074509803921568626" green="0.19607843137254902" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="YfW-pr-tvj" firstAttribute="width" secondItem="dz0-sf-c2M" secondAttribute="width" id="Gpa-3d-VEp"/>
+                                            <constraint firstItem="9ZK-y1-2z3" firstAttribute="width" secondItem="YfW-pr-tvj" secondAttribute="width" id="RdW-pM-ky4"/>
+                                            <constraint firstItem="Bee-hC-bfX" firstAttribute="width" secondItem="dz0-sf-c2M" secondAttribute="width" id="d0s-8D-uHd"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="dz0-sf-c2M" firstAttribute="width" secondItem="MBb-jB-2R8" secondAttribute="width" id="3nU-wl-cIk"/>
+                                    <constraint firstItem="jUA-Tp-ahP" firstAttribute="top" secondItem="xYg-QZ-AtJ" secondAttribute="top" id="8UP-Qi-Qc1"/>
+                                    <constraint firstItem="jUA-Tp-ahP" firstAttribute="height" secondItem="MBb-jB-2R8" secondAttribute="height" id="AaF-9l-uMj"/>
+                                    <constraint firstItem="jUA-Tp-ahP" firstAttribute="trailing" secondItem="xYg-QZ-AtJ" secondAttribute="trailing" id="I75-8M-43r"/>
+                                    <constraint firstItem="jUA-Tp-ahP" firstAttribute="leading" secondItem="xYg-QZ-AtJ" secondAttribute="leading" id="Xqm-b6-849"/>
+                                    <constraint firstItem="jUA-Tp-ahP" firstAttribute="bottom" secondItem="xYg-QZ-AtJ" secondAttribute="bottom" id="zIn-Qr-iQL"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xYg-QZ-AtJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3qQ-YT-MtC"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-xC-e8v">
+                                <rect key="frame" x="162" y="433" width="90" height="30"/>
+                                <state key="normal" title="Increase size">
+                                    <color key="titleColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="redrawAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yWN-2g-85H"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="WaZ-YR-Mvk" customClass="SnailPageControl" customModule="TTSnailPageControl">
+                                <rect key="frame" x="139.5" y="762" width="135" height="50"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WaZ-YR-Mvk" secondAttribute="bottom" constant="50" id="7qN-6D-aiE"/>
+                            <constraint firstAttribute="trailing" secondItem="MBb-jB-2R8" secondAttribute="trailing" id="EDc-Ib-XcX"/>
+                            <constraint firstItem="Pz0-xC-e8v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lra-3v-kks"/>
+                            <constraint firstItem="Pz0-xC-e8v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NFR-at-tIb"/>
+                            <constraint firstItem="WaZ-YR-Mvk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vsh-i0-kce"/>
+                            <constraint firstItem="MBb-jB-2R8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sgq-4u-vj2"/>
+                            <constraint firstAttribute="bottom" secondItem="MBb-jB-2R8" secondAttribute="bottom" id="v3h-wd-GfB"/>
+                            <constraint firstItem="MBb-jB-2R8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yVY-od-ijY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="WaZ-YR-Mvk" id="ldW-iZ-mvt"/>
+                        <outlet property="scrollView" destination="MBb-jB-2R8" id="HMV-V8-lr0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1471.0144927536232" y="6.6964285714285712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
