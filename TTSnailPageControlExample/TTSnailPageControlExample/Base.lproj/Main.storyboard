@@ -57,7 +57,7 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="xYg-QZ-AtJ"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="3qQ-YT-MtC"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-xC-e8v">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-xC-e8v">
                                 <rect key="frame" x="162" y="433" width="90" height="30"/>
                                 <state key="normal" title="Increase size">
                                     <color key="titleColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -67,14 +67,14 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="WaZ-YR-Mvk" customClass="SnailPageControl" customModule="TTSnailPageControl">
-                                <rect key="frame" x="139.5" y="762" width="135" height="50"/>
+                                <rect key="frame" x="139.5" y="412" width="135" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WaZ-YR-Mvk" secondAttribute="bottom" constant="50" id="7qN-6D-aiE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WaZ-YR-Mvk" secondAttribute="bottom" constant="400" id="7qN-6D-aiE"/>
                             <constraint firstAttribute="trailing" secondItem="MBb-jB-2R8" secondAttribute="trailing" id="EDc-Ib-XcX"/>
                             <constraint firstItem="Pz0-xC-e8v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lra-3v-kks"/>
                             <constraint firstItem="Pz0-xC-e8v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NFR-at-tIb"/>
