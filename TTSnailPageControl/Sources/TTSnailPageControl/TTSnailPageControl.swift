@@ -48,13 +48,13 @@ public class SnailPageControl: UIView {
     
     //MARK: - Init
     
-    init(origin:CGPoint) {
+    public init(origin:CGPoint) {
         super.init(frame: CGRect.zero)
         self.frame = CGRect(origin: origin, size: fittingSize)
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.frame.size = fittingSize
         self.translatesAutoresizingMaskIntoConstraints = false
