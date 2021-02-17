@@ -7,7 +7,7 @@
 
 ## About
 
-Just another cool aniamted page control.
+Just another cool animated and fully customizable page control.
 
 ![](Resources/demo.gif)
 
