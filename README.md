@@ -36,7 +36,7 @@ Add the contents of TTSnailPageControl/Sources/TTSnailPageControl folder to your
 pageControl.scrollView = scrollView
 ```
 
-3. Configure the control
+3. Customize the control
 
 ```swift
 pageControl.configuration.itemsCount = 4
