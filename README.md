@@ -24,7 +24,7 @@ Just another cool animated and fully customizable page control.
 
 #### Manually
 
-Add the contents of TTSnailPageControl/Sources/TTSnailPageControl folder to your project.
+Add the contents of Sources/TTSnailPageControl folder to your project.
 
 ## Usage
 
